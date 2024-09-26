@@ -1,0 +1,42 @@
+# Version Control using Git and the Command
+# Working Area > Staging Area [ an intermediatte place where you can pick and choose which files inside your working directory that you want to commit ]
+# Working directory is where you initialize your git repository
+
+
+1. To open a file in vscode → open -a /Applications/Visual\ Studio\ Code.app chapter1.txt
+
+2. To initialize Git → git init 
+
+# Staging area is where you add files to be committed
+
+3. To see whats currently inside your staging area → git status
+
+4. To add file in the staging area > this will be ready to be commited → git add chapter1.txt
+5. To add all files in the working directory to staging area → git add .
+
+6. To commit the changes in the staging area, message needs to be in present tense 
+→ git commit -m "Complete Chapter1"
+
+
+7. Restore Specific Files from Staging back to Working directory → git restore chapter1.txt
+8. Restore all files that are staged. → git restore .
+
+9. Displays the commit history of a repository. → git log
+
+# Why you need to push file from working directory to Stage/intermediate 
+# Reason is if you do not want all your filess to be tracked or all your files to be commited, things you want to ignore and want to  be tracked.\
+
+# Working Directory > git add | Staging Area | > git commit | Git Repository
+
+10. To toll back the last position in our local repository, from local to working directory  
+→ git checkout
+→ git checkout chapter.txt # thsi is for specific file
+
+11. To see the difference of the last version and the last save point in our Git repository 
+# red are deleted and green are added
+→ git diff
+
+
+# You can use .gitignore file to ignore files in your working directory.
+# .gitignore file is a text file that contains a list of files or directories that you want
+# to ignore from being tracked by Git.

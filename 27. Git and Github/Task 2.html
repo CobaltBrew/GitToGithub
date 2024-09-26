@@ -1,0 +1,52 @@
+# Git Remote Repositories
+# Git is for local repository
+# Github is for remote repository
+
+
+How to make remote repository 
+1. github.com
+
+
+Create Repository in Github
+1. At the Top Click Create Repository
+2. Give Repository Name
+3. Give Description
+4. Give Repository Visibility (Public or Private)
+5. Click Create Repository
+6. Copy the Repository URL
+7. Open Git Bash
+8. Navigate to the local repository
+9. Run the command git remote add origin <repository-url></repository-url>
+
+
+Push local repository to Github from the CLI/Gitbash
+1. On Git bash, type git log
+2. This create remote → git remote add origin https://github.com/CobaltBrew/GitToGithub.git 
+3. Push our local repository to remote repository
+ → git push -u <remote name> <branch name>
+
+# Working Directory > Staging Area > Local Repository > Remote Repository 
+# Push from local to remote, the -u link up your remote and local repository 
+git push -u remote <remote name> <branch name>
+
+
+# The we are going to push it towards the remote that's called origin, then push it to the branch that's called main
+→ git push -u origin main
+
+
+
+# main is the default or main branch of all your commits
+# Once you see the flashing cursor or the $/% sign it means our push is successful
+
+
+# To verify and see if the files now are hosted in Github 
+1. Check the files 
+2. Go to Insights > Network for checking
+3. Go to the main page and click commits on top, you can click each to see the changes that were made
+
+
+Working directory > git add |Staging Area| > git commit |Local Repository| > git push |Remote Repository|
+
+
+
+
